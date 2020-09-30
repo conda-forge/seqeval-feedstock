@@ -1,5 +1,5 @@
 {% set name = "seqeval" %}
-{% set version = "0.0.12" %}
+{% set version = "0.0.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9c7764b88b6d1430ab59de63efddf19495fca82159920fd11e362a405f8fc378
+  sha256: 382043fef1d13e2d236b9fec0bcbfeb7974877a027d798644bc8c8c6a3742910
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "Testing framework for sequence labeling"
+  summary: Testing framework for sequence labeling
   doc_url: https://pypi.org/project/seqeval/
   dev_url: https://github.com/chakki-works/seqeval
 
