@@ -5,11 +5,13 @@ Home: https://github.com/chakki-works/seqeval
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/seqeval-feedstock/blob/master/LICENSE.txt)
 
 Summary: Testing framework for sequence labeling
 
+Development: https://github.com/chakki-works/seqeval
 
+Documentation: https://pypi.org/project/seqeval/
 
 Current build status
 ====================
