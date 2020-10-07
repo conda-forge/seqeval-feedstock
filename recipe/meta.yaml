@@ -1,5 +1,5 @@
 {% set name = "seqeval" %}
-{% set version = "0.0.18" %}
+{% set version = "0.0.19" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: df189bc2cf16211013e2fe3f0e4b7fb6ad1f4dfb2fa062fed63c922028437cca
+  sha256: 63209166fd74b11e88f1fa0132614ce852c6e83f678de76f7a53672c2d16c8d2
 
 build:
   noarch: python
