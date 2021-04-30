@@ -11,17 +11,17 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools_scm
   run:
     - numpy
-    - python
+    - python >=3.6
     - scikit-learn
 
 test:
