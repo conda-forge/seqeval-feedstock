@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools_scm
   run:
     - numpy
-    - python
+    - python >=3.6
     - scikit-learn
 
 test:
@@ -40,5 +40,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - mxr-conda
     - oblute
     - benhuff
